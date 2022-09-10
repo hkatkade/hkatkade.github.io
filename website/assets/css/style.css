@@ -1160,7 +1160,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/main1.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -1255,7 +1255,7 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../img/x.jpg) no-repeat center / cover;     
 }
 
 .blog-hero {

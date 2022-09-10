@@ -41,7 +41,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
+.active_slideshow {
   background-color: #717171;
 }
 
@@ -52,7 +52,7 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .17} 
+  from {opacity: .100} 
   to {opacity: 100}
 }
 

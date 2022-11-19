@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Contact | Agency Perfect</title>
+    <title>URF | Contact us</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -25,7 +25,7 @@
     <!-- Favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/urf.png">
 
     <!-- Stylesheets
     ================================================== -->
@@ -33,8 +33,10 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="./assets/css/social_media.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/wave.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,28 +53,16 @@
 
                 <div class="navbar-header">
                    
-                    <a href="index.html" class="site-title"><span>Agency</span>Perfect</a>
+                    <a href="index.html" class="site-title"><span>Urban Research </span>Foundation</a>
 
                 </div><!-- /.navbar-header -->
 
                 <div class="collapse navbar-collapse" id="agency-navbar-collapse">
-
                     <ul class="nav navbar-nav navbar-right">
-
                         <li><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
-
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                              <li><a href="portfolio.html">Portfolio</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                            </ul>
-
-                        </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
-                        <li><a href="ui-elements.html">UI Elements</a></li>
-                        
+                        <li><a href="portfolio.html">Projects</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
                     </ul>
 
                 </div>
@@ -81,80 +71,32 @@
         </nav><!-- /.site-navigation -->
     </header><!-- /#mastheaed -->
 
-    <div id="hero" class="hero overlay subpage-hero contact-hero">
+    <div id="hero" class="hero overlay subpage-hero portfolio-hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Contact</h1>
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Contact</li>
-                </ol>
+                <h1>Get in touch with us!</h1>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
+    <div class="hero_area">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+    </div>
 
     <main id="main" class="site-main">
 
-        <section class="site-section subpage-site-section section-contact-us">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <h2>Send a message</h2>
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label for="name">Name:</label>
-                                      <input type="text" class="form-control" id="name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label for="email">E-mail:</label>
-                                      <input type="email" class="form-control" id="email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <label for="message">Subject:</label>
-                              <input class="form-control" id="subject"></input>
-                            </div>
-                            <div class="form-group">
-                              <label for="message">Message:</label>
-                              <textarea class="form-control form-control-comment" id="message"></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-green">Contact us</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="contact-info">
-                            <h2>Contact information</h2>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h3>Address</h3>
-                                    <ul class="list-unstyled">
-                                        <li>Sydney, Australia</li>
-                                        <li>100 Mainstreet Center</li>
-                                    </ul>
-                                    <h3>E-mail</h3>
-                                    <a href="mailto:pixelperfectmk@gmail.com" target="_blank">pixelperfectmk@gmail.com</a>
-                                    <h3>Phone</h3>
-                                    <a href="tel:2083339296" target="_blank">(208) 333 9296</a>
-                                    <h3>Fax</h3>
-                                    <p>(208) 333 9296</p>
-                                </div>
-                            </div>
-                        </div><!-- /.contact-info -->
-                    </div>
-                </div>
-            </div>
-            
-        </section><!-- /.section-contact-us -->
-
-        <section id="map" class="section-map"></section><!-- /.section-map -->
+        
+        <!-- <section id="map" class="section-map"></section>/.section-map -->
 
     </main><!-- /#main -->
 
@@ -162,27 +104,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <a class="site-title"><span>Agency</span>Perfect</a>
-                    <p>We're a digital agency focused on creative and results-driven solutions.</p>
-                    <p>We measure our success by the results we drive for our clients.</p>
+                    <a class="site-title"><span>Urban Research </span>Foundation</a>
+                    <p>Our vision is to enable Tier-II and Tier-III cities of India in becoming livable, inclusive, and
+                        vibrant urban centers that provide socio-cultural opportunities to their citizens.</p>
+                    <!-- <p>We measure our success by the results we drive for our clients.</p> -->
                 </div>
                 <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
                     <h3>Keep in touch</h3>
                     <ul class="list-unstyled contact-links">
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com">info@agencyperfect.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000">+374 (00) 80 00 00 </a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a
+                                href="mailto:info@agencyperfect.com">info@agencyperfect.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000">+374 (00) 80 00 00 </a>
+                        </li>
                         <li><i class="fa fa-fax" aria-hidden="true"></i><a href="+37400900000">+374 (00) 90 00 00</a></li>
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><p>20 Leo, Armenia</p></li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>Aurangabad, Maharashtra 431001, IN</p>
+                        </li>
                     </ul>
                 </div>
                 <div class="clearfix visible-xs"></div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
                     <h3>Featured links</h3>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="portfolio.html">Porfolio</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Projects</a></li>
+                        <li><a href="portfolio.html">Team</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
                     </ul>
                 </div>
             </div>
@@ -192,15 +139,17 @@
                 <div class="row">
                     <div class="col-xs-8">
                         <div class="social-links">
-                            <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
-                            <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCZ2f7PxMW_5FXQCG7gLWvDA" class="fa fa-youtube"></a>
+                            <a href="https://www.instagram.com/urbanresearchfoundation/?hl=en" class="fa fa-instagram"></a>
+                            <a href="https://twitter.com/urf_20" class="fa fa-twitter"></a>
+                            <a href="https://www.linkedin.com/company/urban-research-foundation/?originalSubdomain=in"
+                                class="fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/groups/740196680124016/" class="fa fa-facebook"></a>
                         </div><!-- /.social-links -->
                     </div>
                     <div class="col-xs-4">
                         <div class="text-right">
-                            <p>&copy; AgencyPerfect</p>
+                            <p>&copy; UrbanResearchFoundation</p>
                             <p>All Rights Reserved</p>
                         </div>
                     </div>

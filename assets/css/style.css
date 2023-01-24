@@ -168,6 +168,7 @@ a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
 html{
     font-family: sans-serif;
     line-height: 1.15;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'lato', sans-serif;
@@ -395,8 +396,6 @@ margin-bottom: 0;
     }
    
 }
-
-
 
 
 
@@ -1160,7 +1159,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/main1.jpg) no-repeat center / cover; 
+    background: url(../img/x.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -1381,7 +1380,8 @@ html, body {
     top: 0;
     right: 100%;
     bottom: 0;
-    background-color: #f5f5f8;
+    /* background-color: #f5f5f8; */
+    /* background-color: #000; */
     transition: right 0.25s ease-in-out;
     -moz-transition: right 0.25s ease-in-out;
     -webkit-transition: right 0.25s ease-in-out;
@@ -1412,6 +1412,12 @@ html, body {
     -ms-transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
 
+.portfolio-item-title-v2{
+    width: 69px;
+    top: 60px;  
+    height: 92px;
+}
+
 .portfolio-item:hover .portfolio-item-title {
     left: 15px;
     opacity: 1;
@@ -1433,6 +1439,7 @@ html, body {
 .portfolio-item a:hover {
     background-color: #26272d;
     color: #fff;
+    /* color: #000000; */
 }
 
 .portfolio-item a i {
@@ -1743,6 +1750,7 @@ a.linkedin-bg:hover {
     content: '';
     display: block;
     background-color: #8c8f94;  
+    /* background-color: #000; */
     width: 20px;
     height: 2px;
     position: absolute;

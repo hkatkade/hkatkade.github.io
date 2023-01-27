@@ -427,7 +427,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #6fc754;
+    color: #c9dd67;
     outline: 0 none;
     text-decoration: none;
 }
@@ -489,7 +489,7 @@ p + p {
 }
 
 .btn-green {
-    background-color: #6fc754;
+    background-color: #c9dd67;
     color: #fff;  
 }
 
@@ -503,7 +503,7 @@ button.btn:focus {
 
 .btn-gray:hover,
 .btn-gray:focus {
-    background-color: #6fc754;
+    background-color: #c9dd67;
     color: #fff;    
 }
 
@@ -612,7 +612,7 @@ input[type=radio] {
     width: 20px;
     border-radius: 3px;
     color: #fff;
-    background-color: #6fc754;
+    background-color: #c9dd67;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -649,12 +649,12 @@ input[type=radio] {
 
 .checkbox [type="checkbox"]:checked:focus + label:before,
 .checkbox [type="checkbox"]:not(:checked):focus + label:before {
-    border: 1px dotted #6fc754;
+    border: 1px dotted #c9dd67;
 }
 
 .checkbox [type="checkbox"]:not(:checked) + label:hover:before,
 .checkbox [type="checkbox"]:checked + label:hover:before {
-    border: 1px solid #6fc754;
+    border: 1px solid #c9dd67;
 }
 
 /* Radiobutton fields */
@@ -702,7 +702,7 @@ input[type=radio] {
     height: 12px;
     top: 50%;
     left: 4px;
-    background-color: #6fc754;
+    background-color: #c9dd67;
     border-radius: 50px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -740,12 +740,12 @@ input[type=radio] {
 
 .radio-btn [type="radio"]:checked:focus + label:before,
 .radio-btn [type="radio"]:not(:checked):focus + label:before {
-    border: 1px dotted #6fc754;
+    border: 1px dotted #c9dd67;
 }
 
 .radio-btn [type="radio"]:checked + label:hover:before,
 .radio-btn [type="radio"]:not(:checked) + label:hover:before {
-    border: 1px solid #6fc754;
+    border: 1px solid #c9dd67;
 }
 
 /* Selectpicker */
@@ -817,7 +817,7 @@ select {
 }
 
 .bootstrap-select .selected {
-    color: #6fc754;
+    color: #c9dd67;
 }
 
 .bootstrap-select .check-mark {
@@ -839,8 +839,8 @@ select {
 
 .nav-tabs.tab-style > li.active > a,
 .nav-tabs.tab-style > li > a:hover {
-    border: 1px solid #6fc754;
-    background-color: #6fc754;
+    border: 1px solid #c9dd67;
+    background-color: #c9dd67;
     color: #fff;
 }
 
@@ -915,7 +915,7 @@ select {
 .accordion .panel-heading a.collapsed:hover,
 .accordion.accordion-gray .panel-heading a.collapsed:hover,
 .accordion .panel-heading a {
-    background-color: #6fc754;   
+    background-color: #c9dd67;   
     color: #fff; 
 }
 
@@ -963,7 +963,7 @@ select {
 .pagination > li.active > a,
 .pagination > li > a:hover,
 .pagination > li.active > a:hover {
-  background-color: #6fc754;
+  background-color: #c9dd67;
   color: #fff;
 }
 
@@ -1096,7 +1096,7 @@ html, body {
 .slicknav_open .slicknav_arrow,
 .slicknav_nav > li a:hover {
     background-color: transparent;
-    color: #6fc754;
+    color: #c9dd67;
 }
 
 .navbar-toggle {
@@ -1129,7 +1129,7 @@ html, body {
     border-radius: 0;
     min-width: 130px;
     border: 0;
-    border-top: 5px solid #6fc754;
+    border-top: 5px solid #c9dd67;
     top: 140%;
     transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -1159,7 +1159,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/x.jpg) no-repeat center / cover; 
+    background: url(../img/x2.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -1199,7 +1199,7 @@ html, body {
 .hero-text p {
     position: relative;
     margin: 45px 0 30px;
-    font-size: 20px;
+    font-size: 16px;
     color: #26272d;
 }
 
@@ -1250,7 +1250,7 @@ html, body {
 }
 
 .subpage-hero a:hover {
-    color: #6fc754;
+    color: #c9dd67;
 }
 
 .portfolio-hero {
@@ -1425,9 +1425,9 @@ html, body {
 
 .portfolio-item a {
     bottom: 15px;
-    color: #26272d;
+    color: #fff;
     padding: 5px 12px;
-    border: 1px solid #26272d;
+    border: 1px solid #fff;
     border-radius: 50px;
 }
 
@@ -1437,7 +1437,7 @@ html, body {
 }
 
 .portfolio-item a:hover {
-    background-color: #26272d;
+    background-color: #c9dd67;
     color: #fff;
     /* color: #000000; */
 }
@@ -1527,7 +1527,7 @@ html, body {
 
 .list-unstyled li a:hover,
 .list-unstyled li.active a {
-    color: #6fc754;
+    color: #c9dd67;
 }
 
 /* Copyright */
@@ -1633,7 +1633,7 @@ a.linkedin-bg:hover {
 }
 
 .portfolio-sorting li .active {
-    background-color: #6fc754;
+    background-color: #c9dd67;
     color: #fff;  
     box-shadow: none;   
 }
@@ -1764,12 +1764,12 @@ a.linkedin-bg:hover {
 }
 
 .post-content .read-more:hover:after {
-    background-color: #6fc754; 
+    background-color: #c9dd67; 
 }
 
 .blog-post a:hover + .post-content .post-title a,
 .post-content a:hover {
-    color: #6fc754;
+    color: #c9dd67;
 }
 
 .post-meta {
